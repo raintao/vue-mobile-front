@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Detail Disclosure</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="项目检查" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="项目检查详情" transform="translate(-126.000000, -370.000000)" fill="#C7C7C7">
+            <g id="关于" transform="translate(126.000000, 370.000000)">
+                <path d="M8.24242424,16 C3.581722,16 0,12.418278 0,8.24242424 C0,3.581722 3.581722,0 8.24242424,0 C12.418278,0 16,3.581722 16,8.24242424 C16,12.418278 12.418278,16 8.24242424,16 Z M8,15 C11.8659932,15 15,11.8659932 15,8 C15,4.13400675 11.8659932,1 8,1 C4.13400675,1 1,4.13400675 1,8 C1,11.8659932 4.13400675,15 8,15 Z M6.5,6 L9,6 L9,12 L10,12 L10,12.5 L6.5,12.5 L6.5,12 L7.5,12 L7.5,6.5 L6.5,6.5 L6.5,6 Z M8,5 C7.44771525,5 7,4.55228475 7,4 C7,3.44771525 7.44771525,3 8,3 C8.55228475,3 9,3.44771525 9,4 C9,4.55228475 8.55228475,5 8,5 Z" id="Detail-Disclosure"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+/**
+ * Col
+ * @author peter <185832959@qq.com>
+ * @date 2018-01-26
+ * @since 1.0.0
+ */
+.z-col {
+    float: left;
+    box-sizing: border-box;
+    min-height: 1px;
+
+    &.left {
+        text-align: left;
+    }
+
+    &.center {
+        text-align: center;
+    }
+
+    &.right {
+        text-align: right;
+    }
+}

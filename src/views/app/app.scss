@@ -1,0 +1,22 @@
+@import "src/style/base/base";
+
+.child-router {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.slide-right-enter {
+    left: 100%;
+    opacity: 0;
+}
+
+.slide-right-enter-active {
+    opacity: 1;
+    transition: left .2s ease;
+}
+
+#app {
+    background: $color-grey-bg;
+}

@@ -1,0 +1,19 @@
+// 引入变量，以提供引用
+@import "src/style/base/variables";
+
+h1,
+h2 {
+    // font-weight: normal;
+    // text-align: center;
+    // color: $color-red;
+}
+
+input,
+button {
+    font-size: 24px;
+}
+
+.content-body {
+    padding-top: 48px;
+    text-align: center;
+}

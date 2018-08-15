@@ -1,0 +1,37 @@
+.mint-indicator-wrapper {
+    z-index: 3999;
+}
+
+.mint-toast {
+    z-index: 3000;
+}
+
+.mint-msgbox {
+    width: 2.8rem;
+
+    .mint-msgbox-title {
+        color: $color-font-main;
+        font-size: $font-size-large;
+        font-weight: bold;
+    }
+
+    .mint-msgbox-content {
+        padding: .24rem .16rem;
+    }
+
+    .mint-msgbox-btns {
+        height: .48rem;
+        line-height: .48rem;
+
+        > button {
+            height: .48rem;
+            line-height: .48rem;
+            font-size: $font-size-large;
+            color: $color-font-main;
+
+            &.mint-msgbox-confirm {
+                color: $color-blue;
+            }
+        }
+    }
+}

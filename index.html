@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-touch-fullscreen" content="yes" />
+        <meta name="format-detection" content="telephone=no, email=no" />
+        <meta name="x5-fullscreen" content="true" />
+        <meta name="full-screen" content="yes" />
+        <title>vue-mobile-front</title>
+        <style>
+            a[title="站长统计"] {
+                display: none;
+            }
+        </style>
+    </head>
+    <body id="wra" style="overflow:hidden;">
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <script>
+            var screenHeight = document.documentElement.clientHeight;
+            var bodyObj = document.getElementById("wra");
+            bodyObj.style.height = screenHeight+'px';
+            bodyObj.style.overflow = 'hidden';
+            (function(d,c,e){var f=d.documentElement,b="orientationchange" in c?"orientationchange":"resize",a=function(){var g=f.clientWidth;if(g>=750){g=750}if(g===e){return}f.style.fontSize=200*(g/750)+"px"};if(d.addEventListener===e){return}c.addEventListener(b,a,false);d.addEventListener("DOMContentLoaded",a,false)})(document,window);
+        </script>
+        <!-- <script src="https://***" language="JavaScript"></script>
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://***";
+              var s = document.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(hm, s);
+            })();
+        </script> -->
+    </body>
+</html>

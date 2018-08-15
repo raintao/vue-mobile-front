@@ -1,0 +1,53 @@
+// 全局变量
+
+//-- 字体色
+$color-font-main:       #333333;  // 主字体色
+$color-font-some:       #282828;  // 部分体色
+$color-font-sub:        #707070;  // 次要字体色
+$color-font-light:      #929292;  //灰色字体
+$color-font-disabled:    #A8A8A8;  // 禁止点击
+//-- 背景色
+$color-input-bg: 	    #F5F7FB;  // input的背景色
+$color-placeholder:     #D0D0D0;  // input的placeholder背景色
+$color-close-bg: 	    #8F8E94;  // 删除按钮的背景色
+$color-pc-bg: 	        #F5F5F5;
+$color-black: 	        rgba(0, 0, 0, 0.6);  // 弹框背景遮罩
+$color-buttom-bg: 	    #F8F8F8;
+$color-grey-light: 	    #F5F7FC;	// 浅灰
+$color-grey-bg: 	    #F0F2F7;	// 灰 默认背景
+$color-dot-bg: 	        #908EA7;	// 圆点
+$color-home-bg:         #FEFEFE;    //主页背景色
+$background-grad:        -webkit-linear-gradient(top, rgb(19, 175, 253), rgb(79, 98, 223));
+//-- 元素色
+$color-back:            #0D0D0D;    // 黑
+$color-blue: 			#4F62DF;	// 蓝
+$color-red: 			#FF5B5B;	// 红
+$color-yellow:          #FCC514;    // 黄
+$color-white: 			#FDFDFD;	// 白
+
+//-- 风险级别
+$risk-normal:           #FFB600;    // 一般风险
+$risk-dange:            #FF6000;    // 高风险
+$risk-dange-high:       #DA1B1B;    // 高危风险
+
+//-- 状态色
+$disabled:              #A8A8A8;    // 禁用状态
+
+//-- 边框色
+$border-grey:           #d7d7d7;
+$border-grey-light:     #E5E5E5;
+
+//-- 基础字体大小
+$font-size-base:		.13rem;	// 基础字体大小
+$font-size-normal:		.14rem;
+$font-size-large:		.17rem;
+$font-size-max:		    .32rem;
+
+// 字体粗细
+$font-normal: 400;
+$font-medium: 500;
+$font-light:  300;
+$font-thin:   100;
+
+// 字体
+$font-family: BlinkMacSystemFont, "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;

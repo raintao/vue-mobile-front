@@ -1,0 +1,58 @@
+/**
+ * Row
+ * @author peter <185832959@qq.com>
+ * @date 2018-01-26
+ * @since 1.0.0
+ */
+.z-row {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:after,
+    &:before {
+        display: table;
+        content: "";
+        clear: both;
+    }
+
+    &.flex {
+        display: flex;
+        justify-content: flex-start;
+        align-items: top;
+
+        // justify-content
+        &.start {
+            justify-content: flex-start;
+        }
+
+        &.center {
+            justify-content: center;
+        }
+
+        &.end {
+            justify-content: flex-end;
+        }
+
+        &.space-between {
+            justify-content: space-between;
+        }
+
+        &.space-around {
+            justify-content: space-around;
+        }
+
+        // align-items
+        &.top {
+            align-items: flex-start;
+        }
+
+        &.middle {
+            align-items: center;
+        }
+
+        &.bottom {
+            align-items: flex-end;
+        }
+    }
+}

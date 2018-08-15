@@ -1,0 +1,191 @@
+@import "./variables";
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+input,
+select,
+table,
+tr,
+td,
+th,
+button,
+textarea {
+    font-family: $font-family;
+}
+
+html,
+body,
+#app {
+    height: 100%;
+    font-size: $font-size-base;
+    overflow: auto;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+ol,
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q,
+blockquote {
+    quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+    -webkit-touch-callout: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="month"],
+input[type="number"],
+input[type="time"],
+input[type="date"] {
+    // border: 1px solid #d7d7d7;
+    // border-radius: 0;
+    // font-weight: inherit;
+    // background-color: transparent;
+    // outline: none;
+    &::-webkit-input-placeholder {
+        color: $color-grey-light;
+    }
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+// input[type="month"],
+// input[type="date"] {
+//     align-items: center;
+//     display: -webkit-inline-flex;
+//     overflow: hidden;
+//     padding: 0;
+//     line-height: rem(38);
+//     -webkit-padding-start: 1px;
+// }
+
+textarea {
+    &::-webkit-input-placeholder {
+        color: $color-grey-light;
+    }
+}
+
+canvas {
+    text-size-adjust: none;
+}
+
+/* 清除内外边距 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+/* structural elements 结构元素 */
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+/* text formatting elements 文本格式元素 */
+fieldset,
+lengend,
+button,
+input,
+textarea,
+/* form elements 表单元素 */
+th,
+td {
+    /* table elements 表格元素 */
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-size-adjust: none;
+}
+
+iframe {
+    display: none !important;
+}
